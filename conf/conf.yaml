@@ -1,0 +1,17 @@
+App:
+  host:127.0.0.1
+  port:8080
+  name:oncokb
+  mode:dev
+  mongodb:
+    host:127.0.0.1
+    port:27017
+    database:MyTest
+    collection:oncokb
+  log:
+    level:debug
+    filename:./log/info.log
+    maxsize:1
+    maxage:30
+    maxbackups:5
+    
